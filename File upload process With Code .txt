@@ -1,0 +1,36 @@
+Method 2: Best Way – Using Git Commands (Recommended)
+Prerequisites (do once on your computer):
+
+Install Git → https://git-scm.com/downloads
+Have a GitHub account
+
+Steps (do this every time you want to upload/update a project):
+
+Create empty repository on GitHub (same as above)
+Go to GitHub → + → New repository
+Give name, keep it empty (no README, no .gitignore)
+Create repository
+Copy the HTTPS URL (looks like: https://github.com/your-username/your-repo-name.git)
+
+Open terminal / command prompt / PowerShell / Git Bash
+Go to your project folder:
+
+Run these commands one by one:
+
+# 1. Initialize git (only first time)
+git init
+
+# 2. Add all files use . or only one file write name example demo.txt
+git add .
+
+# 3. Create first commit
+git commit -m "Initial commit - first upload of project"
+
+# 4. Connect to GitHub (replace with YOUR url)
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+# 5. Set main branch name (most common in 2025-2026)
+git branch -M main
+
+# 6. Push to GitHub (first time use -u)
+git push -u origin main

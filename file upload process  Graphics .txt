@@ -1,0 +1,18 @@
+Method 1: Upload Directly from Browser (Quick & Simple)
+
+Go to https://github.com and log in (create free account if you don't have one).
+Click + (top right) → New repository
+Fill in:
+Repository name (e.g. my-awesome-project)
+Description (optional)
+Public / Private (Public = anyone can see)
+Do NOT tick "Add a README file", ".gitignore", or license (we'll add files ourselves)
+
+Click Create repository
+On the empty repo page → click Add file → Upload files
+Drag & drop your whole project folder (or click "choose your files" and select everything)
+Scroll down → write a commit message like "Initial upload of my project"
+Click Commit changes
+
+Done! Your project is now on GitHub.
+→ This method has limits (slow with many files, no good history for updates).
